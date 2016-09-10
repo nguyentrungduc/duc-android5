@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\AndroidStudioProjects\BMI\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="df4be9c3d2aad2e31198a96980d303a63012158f">
+        <dex dex="D:\AndroidStudioProjects\BMI\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_174e1efc68589f4484da268aff4764d984ae6f16.jar" />
+    </item>
+    <item
+        jar="C:\Users\DUC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.3.0\support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="D:\AndroidStudioProjects\BMI\app\build\intermediates\pre-dexed\debug\support-annotations-23.3.0_0f074dac8c5c9d0dc27665b47d460a3dc8296a73.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\BMI\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\libs\internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="D:\AndroidStudioProjects\BMI\app\build\intermediates\pre-dexed\debug\internal_impl-23.3.0_e92a7160450e9a5549c1f85c8d8593f608477cbc.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\BMI\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="D:\AndroidStudioProjects\BMI\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.3.0_c6836a0829a0bfff2f13b308eb0e1058c258e8d7.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\BMI\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="D:\AndroidStudioProjects\BMI\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.3.0_88b45a719e09edb8baf0706ea4a1df29796ada08.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\BMI\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="cfdaedc49d4b60d4dad0f49c96bdb5b554c5a074">
+        <dex dex="D:\AndroidStudioProjects\BMI\app\build\intermediates\pre-dexed\debug\instant-run_af47adc10717abcac4dd04de950e2e0294d9068c.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\BMI\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="D:\AndroidStudioProjects\BMI\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.3.0_fab052741a61553165f1198a16be9c7599b3f4cf.jar" />
+    </item>
+    <item
+        jar="D:\AndroidStudioProjects\BMI\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.3.0\jars\classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="D:\AndroidStudioProjects\BMI\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.3.0_8c78d0943ab7fb6c1ce68241e671da12d493f8f6.jar" />
+    </item>
+
+</items>
