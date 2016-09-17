@@ -13,15 +13,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="ADD"
-        android:id="@+id/bt_Add"
+        android:id="@+id/btn_add"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/lv_NoteList"
+        android:id="@+id/lv_title"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_above="@+id/bt_Add" />
+        android:layout_above="@+id/btn_add" />
 </RelativeLayout>
