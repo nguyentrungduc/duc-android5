@@ -42,7 +42,7 @@
                         android:layout_height="match_parent"
                         />
                     <ImageView
-                        android:src="@drawable/S"
+                        android:src="@drawable/small"
                         android:layout_marginLeft="10dp"
                         android:layout_toLeftOf="@id/imstore"
                         android:layout_width="50dp"
