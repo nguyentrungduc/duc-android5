@@ -17,13 +17,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
-        setupUI();
+     //   setupUI();
     }
-
-    private void setupUI() {
-        turn12.setLabel("value");
-        turn12.setValue(50);
-    }
+//
+//    private void setupUI() {
+//        turn12.setLabel("value");
+//        turn12.setValue(50);
+//    }
 
 
 }

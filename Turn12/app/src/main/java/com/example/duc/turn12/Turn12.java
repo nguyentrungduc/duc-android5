@@ -50,17 +50,17 @@ public class Turn12 extends LinearLayout {
 
     public Turn12(Context context) {
         super(context);
-        initFromContext(context);
+        initFromContext(context,null);
     }
 
     public Turn12(Context context, AttributeSet attrs) {
         super(context, attrs);
-        initFromContext(context);
+        initFromContext(context,attrs);
     }
 
     public Turn12(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        initFromContext(context);
+        initFromContext(context,attrs);
     }
 
     public void addListener(){
@@ -85,11 +85,23 @@ public class Turn12 extends LinearLayout {
     }
 
 
-    private void initFromContext(Context context) {
+    private void initFromContext(Context context,AttributeSet attrs) {
         View rootView = inflate(context, R.layout.turn12, this);
         ButterKnife.bind(this, rootView);
-        updateUI();
         addListener();
+        updateUI();
+        if(attrs != null){
+            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.Turn12);
+
+            value = typedArray.getInt(R.styleable.Turn12_value, -1);
+            label = typedArray.getString(R.styleable.Turn12_label);
+
+            typedArray.recycle();
+
+            tvValue.setText(value + "");
+            tvLabel.setText(label + "");
+
+        }
     }
 
 }

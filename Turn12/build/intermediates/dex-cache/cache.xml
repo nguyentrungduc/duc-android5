@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-24.2.1_54370dab6c4eee9e8c27001cac7710d66cd8451d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.2.1_6a306c6bd94b9195402bcda926627900addf34d3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DUC\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.2.1\support-annotations-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\support-annotations-24.2.1_843aece34a4ec1ee34c94bb08701453cd5a29b03.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="c9af53e965e5d5da342c5ccc5767062acaa91b60">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_5932c6a55144ef617ca89d70ad9ef6f1b4ba0042.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.jakewharton\butterknife\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.jakewharton-butterknife-8.4.0_db71d924c67d6b5690d33773243395bcbad39147.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\DUC\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\butterknife-annotations-8.4.0_1bb59940547ac78fc795a62033f4ac73bcddae95.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_a850ea622e5d73165af6269fd71aae16698b4ebf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.2.1_e57d1cd2d219065165c15ee1d667fb6e37d8367f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="bced94cad399c37ad7e3c1d19beebedf99e60a38">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\instant-run_fdbb66aec13a98b17113c2427867df9e169e545a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-24.2.1_e2385bb52134546c52655fdc245838fffb12a491.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.2.1_f8a4aa138c811dfa24e060195cbbe540a04086bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_b3071ba4584dd7619a3a9c1cae04fef676b184a6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-24.2.1_799477f4c534aee513e0fe4e37d16c17918d5bda.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_f535fc809b18a2464830bbbcf8d9d91fa03d766e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.2.1_3376520a206f1a9f95a814d3095e8c6151485184.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_5672d7bad934a5057309937337afcd3a842f57be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-24.2.1_cda1dd0c0ed99194502773b9d2e618114df55057.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\libs\internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\internal_impl-24.2.1_d910a5019c72becfb66b8e42239d497ede811f58.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\AndroidStudioProjects\Turn12\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.2"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="D:\AndroidStudioProjects\Turn12\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-24.2.1_16351cb6e3ced6df8a881ba7e7652ce87f134bcb.jar" />
+    </item>
+
+</items>

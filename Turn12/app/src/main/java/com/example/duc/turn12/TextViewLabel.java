@@ -28,15 +28,7 @@ public class TextViewLabel extends TextView {
     }
 
     private void initFrom(Context context, AttributeSet attrs){
-        if(attrs!=null){
-            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.TextViewLabel);
-            typedArray.getString(R.styleable.TextViewLabel_label);
 
-            typedArray.recycle();
-
-            this.setText(label);
-
-        }
     }
 
 }

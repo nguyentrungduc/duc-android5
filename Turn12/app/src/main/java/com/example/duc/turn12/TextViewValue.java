@@ -29,15 +29,7 @@ public class TextViewValue extends TextView {
     }
 
     private void initFrom(Context context, AttributeSet attrs){
-        if(attrs!=null){
 
-            TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.TextViewLabel);
-            typedArray.getInt(R.styleable.TextViewValue_value, -1);
-
-            typedArray.recycle();
-
-            this.setText(String.format("%s", value));
-        }
     }
 
 

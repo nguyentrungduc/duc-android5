@@ -12,6 +12,8 @@
     tools:context="com.example.duc.turn12.MainActivity">
 
     <com.example.duc.turn12.Turn12
+        app:value="12"
+        app:label="hihi"
         android:id="@+id/turn_12"
         android:layout_width="match_parent"
         android:layout_height="100dp">
