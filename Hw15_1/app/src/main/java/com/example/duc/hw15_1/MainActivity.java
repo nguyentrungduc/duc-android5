@@ -3,6 +3,7 @@ package com.example.duc.hw15_1;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -39,8 +40,17 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         addListener();
     }
-    @OnClick(R.id.btn_login)
-    public void addListener(){
+    private void addListener() {
+        btnLogin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                sendPOSTRequest();
+            }
+        });
+    }
+
+    private void sendPOSTRequest() {
+
         OkHttpClient client = new OkHttpClient();
 
         Info info = new Info(etUser.getText().toString(),etPassword.getText().toString());
@@ -64,11 +74,11 @@ public class MainActivity extends AppCompatActivity {
                 runOnUiThread(new Runnable() {
                     @Override
                     public void run() {
-                        if (jSonModels.getCode() == 1) {
+                        if (jSonModels.getCode()==1) {
                             Log.d(TAG, "OK");
                             Toast.makeText(MainActivity.this, "Login Passed", Toast.LENGTH_LONG).show();
                         }
-                        else {
+                        if (jSonModels.getCode()==0) {
                             Log.d(TAG, "FAILED");
                             Toast.makeText(MainActivity.this, "Login Failed", Toast.LENGTH_SHORT).show();
                         }
@@ -79,6 +89,5 @@ public class MainActivity extends AppCompatActivity {
 
         });
     }
-
 
 }
