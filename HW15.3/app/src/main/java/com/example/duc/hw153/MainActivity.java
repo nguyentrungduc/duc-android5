@@ -57,7 +57,6 @@ public class MainActivity extends AppCompatActivity
         rvCategory.setLayoutManager(linearLayoutManager);
         categoriListAdapter = new CategoriListAdapter();
         rvCategory.setAdapter(categoriListAdapter);
-
     }
 
     @Override
