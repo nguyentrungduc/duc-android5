@@ -39,7 +39,6 @@ public class DetailFragment extends Fragment {
         this.note = note;
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -55,6 +54,11 @@ public class DetailFragment extends Fragment {
         btSave.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Note note = new Note(
+                        ((MainActivity)getActivity()).getNote().getId(),
+                        etTitle.getText().toString(),
+                        etContent.getText().toString()
+                );
                 ((MainActivity) getActivity()).onBackPressed();
             }
         });

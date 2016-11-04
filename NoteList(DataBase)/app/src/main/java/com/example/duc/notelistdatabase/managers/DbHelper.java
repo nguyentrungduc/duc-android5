@@ -82,7 +82,7 @@ public class DbHelper extends SQLiteAssetHelper {
         return note;
     }
 
-    public Note selectRandomNuote(){
+    public Note selectRandomNote(){
         SQLiteDatabase db = getReadableDatabase();
         Cursor cursor = db.query(NOTE_TABLE_NAME, NOTE_COLUMNS, null
                 ,null,
@@ -103,5 +103,5 @@ public class DbHelper extends SQLiteAssetHelper {
                 +note.getId(),null);
         db.close();
     }
-    
+
 }

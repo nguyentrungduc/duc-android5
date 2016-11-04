@@ -1,5 +1,8 @@
 package com.example.duc.notelistdatabase.items;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /**
  * Created by DUC on 10/31/2016.
  */
@@ -10,11 +13,20 @@ public class Note {
     private int id;
     private String time_created;
 
-    public Note(String title, String content, int id, String time_created) {
+    private static List<Note> listNote;
+
+
+    public static synchronized List<Note> getListNote(){
+        if(listNote == null){
+            listNote = new ArrayList<>();
+        }
+        return listNote;
+    }
+
+    public Note( int id,String title, String content) {
         this.title = title;
         this.content = content;
         this.id = id;
-        this.time_created = time_created;
     }
 
     public Note(String title,String content){
@@ -40,6 +52,11 @@ public class Note {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString(){
+        return title;
     }
 
     public static final Note[] NOTES = new Note[]{
