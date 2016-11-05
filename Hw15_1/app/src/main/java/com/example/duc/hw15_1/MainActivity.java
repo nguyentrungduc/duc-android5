@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
 
         Info info = new Info(etUser.getText().toString(),etPassword.getText().toString());
 
-        final String jsonBody = (new Gson().toJson(info));
+        String jsonBody = (new Gson().toJson(info));
 
         RequestBody requestBody = RequestBody.create(MediaType.parse("application/json"),jsonBody);
 
