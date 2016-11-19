@@ -30,6 +30,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
                     <Switch
+                        android:id="@+id/sound"
                         android:layout_marginRight="20dp"
                         android:layout_alignParentRight="true"
                         android:layout_width="match_parent"
@@ -54,6 +55,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent" />
                     <Switch
+                        android:id="@+id/music"
                         android:layout_marginRight="20dp"
                         android:layout_alignParentRight="true"
                         android:layout_width="match_parent"
@@ -104,6 +106,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <ImageView
+                                android:id="@+id/gen1"
                                 android:src="@drawable/background_gen1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent" />
@@ -114,6 +117,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <ImageView
+                                android:id="@+id/gen3"
                                 android:src="@drawable/background_gen3"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent" />
@@ -124,6 +128,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <ImageView
+                                android:id="@+id/gen5"
                                 android:src="@drawable/background_gen5"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent" />
@@ -141,6 +146,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <ImageView
+                                android:id="@+id/gen2"
                                 android:src="@drawable/background_gen2"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent" />
@@ -151,6 +157,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <ImageView
+                                android:id="@+id/gen4"
                                 android:src="@drawable/background_gen4"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent" />
@@ -161,6 +168,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent">
                             <ImageView
+                                android:id="@+id/gen6"
                                 android:src="@drawable/background_gen6"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent" />
