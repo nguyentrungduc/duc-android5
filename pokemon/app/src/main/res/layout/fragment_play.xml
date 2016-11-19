@@ -20,11 +20,10 @@
                 android:layout_weight="2"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
-                <SeekBar
-                    android:thumbTintMode="src_over"
-                    android:thumb="@drawable/thumb"
+                <ProgressBar
+                    android:drawingCacheQuality="high"
                     android:background="@drawable/background_fill"
-                    android:progressDrawable="@drawable/progress_fill"
+                    style="?android:attr/progressBarStyleHorizontal"
                     android:layout_marginLeft="60dp"
                     android:layout_marginRight="60dp"
                     android:layout_width="match_parent"
