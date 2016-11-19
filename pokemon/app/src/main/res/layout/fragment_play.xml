@@ -21,6 +21,9 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
                 <SeekBar
+                    android:thumbTintMode="src_over"
+                    android:thumb="@drawable/thumb"
+                    android:background="@drawable/background_fill"
                     android:progressDrawable="@drawable/progress_fill"
                     android:layout_marginLeft="60dp"
                     android:layout_marginRight="60dp"
